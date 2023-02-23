@@ -1,0 +1,33 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>
+            <h3> Add your To-Do List</h3>
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form [formGroup]="todoForm">
+            <mat-form-field appearance="legacy">
+                <mat-label>Subject</mat-label>
+                <input matInput placeholder="Subject" required formControlName="label">
+            </mat-form-field>
+
+            <mat-form-field appearance="standard">
+                <mat-label> Description</mat-label>
+                <input matInput placeholder="Description" required formControlName="description">
+            </mat-form-field>
+
+            <mat-form-field appearance="standard">
+                <mat-label>Category</mat-label>
+                <select matNativeControl required formControlName="category">
+                    <option value="Personal">Personal</option>
+                    <option value="Work">Work</option>
+                    <option value="School">School</option>
+                    <option value="Entertainment">Entertainment</option>
+                </select>
+            </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions align="center">
+        <button mat-raised-button color="secondary" [disabled]="!todoForm.valid" (click)="submit()">ADD</button>
+    </mat-card-actions>
+</mat-card>

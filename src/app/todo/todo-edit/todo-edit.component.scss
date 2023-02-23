@@ -1,0 +1,27 @@
+mat-card {
+    font-family:'Courier New', Courier, monospace;
+    // background-color: rgb(252, 252, 252);
+    background-color: rgb(255, 251, 194);
+    form > mat-form-field {
+        display: block;
+    }
+    mat-card-header {
+        justify-content: space-between;
+        mat-icon {
+            cursor: pointer;
+        }
+    }
+}
+
+.todo{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(255, 255, 255);
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+

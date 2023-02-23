@@ -1,0 +1,36 @@
+mat-card {
+    margin-bottom: 1em;
+    font-family:'Courier New', Courier, monospace;
+    // background-color: rgb(252, 252, 252);
+    //  background-color: rgb(255, 251, 194);
+    // background-image: url("note.jpg");
+    &.todo:hover {
+        cursor: pointer;
+        transform: scale(1.01);
+        box-shadow: 0 13.2px 7.2px 0 var(--callout-shadow-color, rgba(0, 0, 0, .132)),
+        0 .6px 1.8px 0 var(--callout-shadow-secondary-color, #0000001c)
+    }
+}
+
+
+.todo{
+    //   background-image: url("note.jpg");
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(255, 254, 217);
+
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+}
+
+button{
+    margin-right: 1vw;
+    color: white;
+    font-size: 12px;
+    line-height: 24px;
+    height: auto;
+    width: auto;
+}
+

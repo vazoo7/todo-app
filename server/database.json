@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "label": "Watch Match",
+      "description": "Watch match between Manchester United vs Barcelona",
+      "category": "Entertainment",
+      "done": true,
+      "id": 1
+    },
+    {
+      "label": "Cleaning",
+      "description": "Clean Kitchen Floor and Utensils. Keep Clothes in laundry",
+      "category": "Personal",
+      "done": true,
+      "id": 2
+    },
+    {
+      "label": "Payment",
+      "description": "Complete the payment for electricity bill",
+      "category": "School",
+      "done": false,
+      "id": 3
+    },
+    {
+      "label": "Call",
+      "description": "Call Manager at 6:00 PM regarding the project",
+      "category": "Work",
+      "done": false,
+      "id": 4
+    }
+  ]
+}
